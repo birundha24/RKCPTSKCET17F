@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div.relative{
+                position: relative;
+                
+                width: 1325px;
+                height: 800px;
+                border: 3px solid brown;
+                alignment-adjust: center;
+                background-color: blanchedalmond;
+                padding-right: 300;
+            
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="relative">
+            <form action="" method="post">   
+            <center>
+        <div>
+            <br>
+            <br><br><br>
+            <p>
+            <label for="name">Name              :       </label>
+            <input type="text" id="name" name="name" required value="" required  pattern="[A-Z-a-z]+" aria-required="true" aria-describedby="name-format" required>
+           
+            </p>
+        </div>
+        <div> 
+            <p>
+           
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" value="" pattern="[^ @]*@[^ @]*" required aria-required="true" required>
+            </p>
+        </div>       
+ 
+        <div>
+        <p>Password: <input id="field_pwd1" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1" required></p>
+        </div>
+        <div>
+        <p>Re-enter: <input id="field_pwd2" title="Please enter the same Password as above." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd2" required></p>
+        </div>
+           
+                <div> <p><a href="home.html"><button type="button"><b><i>click here</i></b></button></a></p>
+                   
+                </div>
+                    
+        </div>
+      <h2>
+                    
+                        <b>Already have an account?</b>
+                    <a href="signi.html">Sign in</a>
+                </h2>
+    </center>
+        </form>
+    </body>
+</html>
